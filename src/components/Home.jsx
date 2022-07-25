@@ -5,6 +5,7 @@ import js from '../assets/js.png'
 import react from '../assets/react.jpg'
 import tailwind from '../assets/tailwind.png'
 import CV from './CV'
+import { BsFillArrowUpSquareFill } from 'react-icons/bs'
 
 const Home = () => {
   return (
@@ -38,7 +39,7 @@ const Home = () => {
         </div>
 
         <div className='flex items-center flex-col absolute top-1/2 z-20'>          
-            <h1 className='bg-gray-100 p-4 shadow-xl text-xl font-normal' id='text'>
+            <h1 className='bg-gray-100 p-4 shadow-xl text-xl font-normal text-center' id='text'>
             <TypewriterComponent 
               onInit={(typewriter) => {
                 const name = 'Leonardo Villar';
@@ -50,6 +51,11 @@ const Home = () => {
             </h1>
             <CV />
         </div>
+
+        <a className='fixed right-10 bottom-6' 
+        href="/#">
+          <BsFillArrowUpSquareFill size={45} className='text-gray-900'/>
+        </a>
         
         <Socials />
     </div>

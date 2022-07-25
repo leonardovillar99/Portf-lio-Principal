@@ -8,7 +8,7 @@ const Header = () => {
                 Villar
             </h1>
 
-            <ul className='flex gap-8 text-lg font-medium'>
+            <ul className='flex gap-12 text-lg font-medium'>
                 <li>
                     <a className='text-gray-900 hover:text-gray-300 duration-100'
                     href="/#">
@@ -23,13 +23,13 @@ const Header = () => {
                 </li>
                 <li>
                     <a className='text-gray-900 hover:text-gray-300 duration-100' 
-                    href="/#">
+                    href="#projects">
                         Projetos
                     </a>
                 </li>
                 <li>
                     <a className='text-gray-900 hover:text-gray-300 duration-100' 
-                    href="/#">
+                    href="#contact">
                         Contato
                     </a>
                 </li>
