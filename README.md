@@ -11,4 +11,4 @@ Tecnologias usadas para o desenvolvimento desse site:
 - SwiperJS
 - FormSpree (Formulário Javascript)
 
-OBS: Site em construção, até logo ;)
+OBS: Das tecnologias descritas acima nem todas foram usadas até o momento e outras ainda serão colocadas, site em construção, até logo ;)
